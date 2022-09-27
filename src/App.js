@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import Banks from './container/Banks/Banks';
+import Banner from './container/Banner/Banner';
+import Customers from './container/Customers/Customers';
+import Footer from './container/Footer/Footer';
+import Header from './container/Header/Header';
+import Products from './container/Products/Products';
+import "./stylesheet/main.css";
+import "@fontsource/poppins"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Header></Header>
+    <Banner></Banner>
+    <Banks></Banks>
+    <Products></Products>
+    <Customers></Customers>
+    <Footer></Footer>
     </div>
   );
 }
