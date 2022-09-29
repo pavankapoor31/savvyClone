@@ -11,6 +11,7 @@ function Banks() {
         <span className="font-bold">Shop securely,</span> setup payments with
         topnotch banks
       </div>
+
       <div className="banks__logos">
         <img
           src={hdfcLogo}

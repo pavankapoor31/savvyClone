@@ -1,0 +1,277 @@
+{
+    "data": [
+        {
+            "id": 5,
+            "title": "otro titulo",
+            "price": 10000,
+            "description": "otra descripcion",
+            "category": {
+                "id": 5,
+                "name": "Others",
+                "image": "https://api.lorem.space/image?w=640&h=480&r=7739"
+            },
+            "images": [
+                "https://api.lorem.space/image?w=640&h=480&r=9003",
+                "https://api.lorem.space/image?w=640&h=480&r=4940",
+                "https://api.lorem.space/image?w=640&h=480&r=3659"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Licensed Soft Hat",
+            "price": 108,
+            "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+            "category": {
+                "id": 3,
+                "name": "Furniture",
+                "image": "https://api.lorem.space/image/furniture?w=640&h=480&r=870"
+            },
+            "images": [
+                "https://api.lorem.space/image/furniture?w=640&h=480&r=2698",
+                "https://api.lorem.space/image/furniture?w=640&h=480&r=9021",
+                "https://api.lorem.space/image/furniture?w=640&h=480&r=6014"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Rustic Steel Chair",
+            "price": 622,
+            "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+            "category": {
+                "id": 4,
+                "name": "Shoes",
+                "image": "https://api.lorem.space/image/shoes?w=640&h=480&r=6611"
+            },
+            "images": [
+                "https://api.lorem.space/image/shoes?w=640&h=480&r=6309",
+                "https://api.lorem.space/image/shoes?w=640&h=480&r=7131",
+                "https://api.lorem.space/image/shoes?w=640&h=480&r=6435"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Sleek Soft Table",
+            "price": 985,
+            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            "category": {
+                "id": 1,
+                "name": "Clothes",
+                "image": "https://api.lorem.space/image/fashion?w=640&h=480&r=4478"
+            },
+            "images": [
+                "https://api.lorem.space/image/fashion?w=640&h=480&r=7046",
+                "https://api.lorem.space/image/fashion?w=640&h=480&r=2113",
+                "https://api.lorem.space/image/fashion?w=640&h=480&r=4420"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Gorgeous Frozen Bacon",
+            "price": 538,
+            "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+            "category": {
+                "id": 1,
+                "name": "Clothes",
+                "image": "https://api.lorem.space/image/fashion?w=640&h=480&r=4478"
+            },
+            "images": [
+                "https://api.lorem.space/image/fashion?w=640&h=480&r=8269",
+                "https://api.lorem.space/image/fashion?w=640&h=480&r=6716",
+                "https://api.lorem.space/image/fashion?w=640&h=480&r=3264"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Fantastic Steel Bike",
+            "price": 462,
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "category": {
+                "id": 5,
+                "name": "Others",
+                "image": "https://api.lorem.space/image?w=640&h=480&r=7739"
+            },
+            "images": [
+                "https://api.lorem.space/image?w=640&h=480&r=6520",
+                "https://api.lorem.space/image?w=640&h=480&r=6334",
+                "https://api.lorem.space/image?w=640&h=480&r=9243"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Sleek Granite Table",
+            "price": 43,
+            "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+            "category": {
+                "id": 4,
+                "name": "Shoes",
+                "image": "https://api.lorem.space/image/shoes?w=640&h=480&r=6611"
+            },
+            "images": [
+                "https://api.lorem.space/image/shoes?w=640&h=480&r=3679",
+                "https://api.lorem.space/image/shoes?w=640&h=480&r=1882",
+                "https://api.lorem.space/image/shoes?w=640&h=480&r=2663"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Fantastic Soft Table",
+            "price": 121,
+            "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+            "category": {
+                "id": 2,
+                "name": "Electronics",
+                "image": "https://api.lorem.space/image/watch?w=640&h=480&r=4896"
+            },
+            "images": [
+                "https://api.lorem.space/image/watch?w=640&h=480&r=9924",
+                "https://api.lorem.space/image/watch?w=640&h=480&r=7715",
+                "https://api.lorem.space/image/watch?w=640&h=480&r=870"
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Unbranded Cotton Bacon",
+            "price": 501,
+            "description": "The Football Is Good For Training And Recreational Purposes",
+            "category": {
+                "id": 5,
+                "name": "Others",
+                "image": "https://api.lorem.space/image?w=640&h=480&r=7739"
+            },
+            "images": [
+                "https://api.lorem.space/image?w=640&h=480&r=4217",
+                "https://api.lorem.space/image?w=640&h=480&r=5593",
+                "https://api.lorem.space/image?w=640&h=480&r=9264"
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Rustic Steel Bacon",
+            "price": 833,
+            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+            "category": {
+                "id": 3,
+                "name": "Furniture",
+                "image": "https://api.lorem.space/image/furniture?w=640&h=480&r=870"
+            },
+            "images": [
+                "https://api.lorem.space/image/furniture?w=640&h=480&r=106",
+                "https://api.lorem.space/image/furniture?w=640&h=480&r=6030",
+                "https://api.lorem.space/image/furniture?w=640&h=480&r=8493"
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Generic Concrete Gloves",
+            "price": 554,
+            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+            "category": {
+                "id": 2,
+                "name": "Electronics",
+                "image": "https://api.lorem.space/image/watch?w=640&h=480&r=4896"
+            },
+            "images": [
+                "https://api.lorem.space/image/watch?w=640&h=480&r=736",
+                "https://api.lorem.space/image/watch?w=640&h=480&r=6143",
+                "https://api.lorem.space/image/watch?w=640&h=480&r=732"
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Fantastic Granite Shirt",
+            "price": 718,
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "category": {
+                "id": 2,
+                "name": "Electronics",
+                "image": "https://api.lorem.space/image/watch?w=640&h=480&r=4896"
+            },
+            "images": [
+                "https://api.lorem.space/image/watch?w=640&h=480&r=1970",
+                "https://api.lorem.space/image/watch?w=640&h=480&r=260",
+                "https://api.lorem.space/image/watch?w=640&h=480&r=2411"
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Unbranded Cotton Pizza",
+            "price": 416,
+            "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+            "category": {
+                "id": 4,
+                "name": "Shoes",
+                "image": "https://api.lorem.space/image/shoes?w=640&h=480&r=6611"
+            },
+            "images": [
+                "https://api.lorem.space/image/shoes?w=640&h=480&r=3175",
+                "https://api.lorem.space/image/shoes?w=640&h=480&r=7162",
+                "https://api.lorem.space/image/shoes?w=640&h=480&r=3066"
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Small Metal Towels",
+            "price": 460,
+            "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+            "category": {
+                "id": 1,
+                "name": "Clothes",
+                "image": "https://api.lorem.space/image/fashion?w=640&h=480&r=4478"
+            },
+            "images": [
+                "https://api.lorem.space/image/fashion?w=640&h=480&r=3163",
+                "https://api.lorem.space/image/fashion?w=640&h=480&r=2829",
+                "https://api.lorem.space/image/fashion?w=640&h=480&r=8681"
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Sleek Wooden Fish",
+            "price": 421,
+            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            "category": {
+                "id": 1,
+                "name": "Clothes",
+                "image": "https://api.lorem.space/image/fashion?w=640&h=480&r=4478"
+            },
+            "images": [
+                "https://api.lorem.space/image/fashion?w=640&h=480&r=9633",
+                "https://api.lorem.space/image/fashion?w=640&h=480&r=3922",
+                "https://api.lorem.space/image/fashion?w=640&h=480&r=860"
+            ]
+        }
+    ],
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "content-length": "101923",
+        "content-type": "application/json; charset=utf-8"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {
+            "FormData": null
+        },
+        "headers": {
+            "Accept": "application/json, text/plain, */*"
+        },
+        "method": "get",
+        "url": "https://api.escuelajs.co/api/v1/products"
+    },
+    "request": {}
+}

@@ -1,14 +1,13 @@
-import React from 'react'
-import Logo from '../../assets/images/logo.webp'
-
+import React from "react";
+import Logo from "../../assets/images/logo.webp";
 function Header() {
   return (
+    <div className="header" id="header">
 
-    <div className='header wrap'>
-        <img src={Logo} alt="logo" className='header__logo'/>
-        <span className='header__text'>pay</span>
+          <img src={Logo} alt="logo" className="header__logo" />
+
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

@@ -1,21 +1,29 @@
-import React from 'react'
-import Banks from './container/Banks/Banks';
-import Banner from './container/Banner/Banner';
-import Customers from './container/Customers/Customers';
-import Footer from './container/Footer/Footer';
-import Header from './container/Header/Header';
-import Products from './container/Products/Products';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "./container/Footer/Footer";
+import Header from "./container/Header/Header";
+import Home from "./Home.js";
 import "./stylesheet/main.css";
-import "@fontsource/poppins"
+import "@fontsource/poppins";
+import KnowMore from "./container/KnowMore/KnowMore";
+
 function App() {
   return (
     <div className="App">
-    <Header></Header>
+      <Header />
+      <BrowserRouter>
+        <Routes>
+          <Route path="KnowMore" element={<KnowMore />}></Route>
+          <Route path="/" element={<Home />}></Route>
+        </Routes>
+      </BrowserRouter>
+
+      {/* <Header></Header>
     <Banner></Banner>
     <Banks></Banks>
     <Products></Products>
-    <Customers></Customers>
-    <Footer></Footer>
+    <Customers></Customers> */}
+      <Footer />
     </div>
   );
 }
