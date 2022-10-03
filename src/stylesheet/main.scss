@@ -169,7 +169,7 @@ html {
 }
 @media screen and (max-width: 930px) {
   .products__grid {
-    grid-template-columns: repeat(1, 70%);
+    grid-template-columns: repeat(1, 82%)
   }
   .product_name {
     font-size: 1rem;
@@ -245,6 +245,8 @@ html {
 }
 .products__filter {
   margin: 1rem;
+  color: grey;
+  cursor: pointer; 
 }
 .products__filters .active {
   color: black;
@@ -372,6 +374,8 @@ html {
     .product_name {
       font-size: 1.4rem;
       font-weight: 600;
+      overflow-wrap: break-word;
+      width: 60%;
     }
     button{
       padding: 0.1rem 0.2rem;
@@ -395,5 +399,9 @@ html {
   {
     font-size: 1rem;
     // !important ;
+  }
+  .carouselBox{
+    height: fit-content;
+    margin: 2rem auto;
   }
 } 

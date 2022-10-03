@@ -6,6 +6,7 @@ import Home from "./Home.js";
 import "./stylesheet/main.css";
 import "@fontsource/poppins";
 import KnowMore from "./container/KnowMore/KnowMore";
+import Products from "./container/Products/Products";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="KnowMore" element={<KnowMore />}></Route>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/Travel" element={<Products />}></Route>
         </Routes>
       </BrowserRouter>
 

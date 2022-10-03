@@ -1,30 +1,36 @@
-$headerBackground : #000000;
-$bannerGradient: linear-gradient(90deg, rgba(228,228,216,1) 0%, rgba(224,224,213,1) 29%, rgba(243,254,236,1) 42%, rgba(183,228,186,1) 100%);;
-$bannerBaseBackground : rgb(228,228,216);
-$bankFont:2rem;
+$headerBackground: #000000;
+$bannerGradient: linear-gradient(
+  90deg,
+  rgba(228, 228, 216, 1) 0%,
+  rgba(224, 224, 213, 1) 29%,
+  rgba(243, 254, 236, 1) 42%,
+  rgba(183, 228, 186, 1) 100%
+);
+$bannerBaseBackground: rgb(228, 228, 216);
+$bankFont: 2rem;
 // Utility
 .font-light {
-    font-weight: 200;
-  }
-  .font-bold {
-    font-weight: bold;
-  }
-  
-  .headings {
-    font-size: 3.1rem;
-    font-weight: bolder;
-    font-family: "poppins";
-    font-weight: bolder;
-  }
-  .text-center {
-    text-align: center;
-  }
-  .btn {
-    color: white;
-    background-color: black;
-    border-radius: 4px;
-  }
-.modal{
+  font-weight: 200;
+}
+.font-bold {
+  font-weight: bold;
+}
+
+.headings {
+  font-size: 3.1rem;
+  font-weight: bolder;
+  font-family: "poppins";
+  font-weight: bolder;
+}
+.text-center {
+  text-align: center;
+}
+.btn {
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+}
+.modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -35,15 +41,15 @@ $bankFont:2rem;
   align-items: center;
   justify-content: center;
 }
-.modal__content{
+.modal__content {
   width: 50rem;
   background-color: #ffffff;
 }
-.modal__title{
+.modal__title {
   margin: 0;
   font-weight: bolder;
 }
-.modal__body{
+.modal__body {
   padding: 1rem;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
@@ -51,27 +57,61 @@ $bankFont:2rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
-button{
+button {
   cursor: pointer;
 }
 
-.modal__close-btn{
+.modal__close-btn {
   padding: 0.2rem 0.2rem;
   color: #000;
   background: transparent;
   border: 1px solid grey;
 }
-.crossbtn{
+.crossbtn {
   border: 0px solid transparent;
 }
-
+.mousePointer {
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 900px) {
-  .headings{
+  .customers {
+    height: 34rem;
+  }
+  .headings {
     font-size: 3rem;
-
+  }
+  .modal {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .headings {
+    font-size: 2rem;
+  }
+  .modal__body h1 {
+    font-size: 1.6rem;
+  }
+  .modal__body {
+    display: flex;
+    justify-items: center;
+  }
+}
+.swiper-pagination-bullet {
+  background-color: rgb(133, 131, 131);
+}
+.swiper-pagination-bullets {
+  bottom: 6px !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #ffd401;
+}
+@media only screen and (min-width: 1495px) {
+  .swiper {
+    width: 76%;
+  }
+  .media__reviews {
+    // width: 75%;
   }
 }

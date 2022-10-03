@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+import {  useRef } from "react";
 
 function Modal(props) {
   // Takes title,price,image as props
@@ -10,6 +11,11 @@ function Modal(props) {
       document.body.removeEventListener("keydown", escapeKeyDownHandler);
     };
   });
+  const modalBodyRef = useRef();
+  const onClickHandler = (e) => {
+    if (!modalBodyRef.current.contains(e.target)) 
+    props.onClose();
+  };
   function escapeKeyDownHandler(e) {
     if (e.charCode === 27 || e.keyCode === 27) props.onClose();
   }
@@ -18,8 +24,10 @@ function Modal(props) {
   }
   //
   return (
-    <div className="modal">
-      <div className="modal__content" onClick={(e) => e.stopPropagation()}>
+    // <div className="modal" onClick={props.onClose}>
+    <div className="modal" onClick={onClickHandler}>
+      <div className="modal__content" ref={modalBodyRef}>
+        {/* <div className="modal__content" onClick={(e) => e.stopPropagation()}> */}
         <button
           className="btn modal__close-btn crossbtn"
           onClick={props.onClose}
